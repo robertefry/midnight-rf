@@ -29,7 +29,7 @@ Item {
 
     property int padding: Math.round(units.iconSizes.medium / 10)
     height: icon.width
-    width: icon.width + padding + (rootItem.showingProgress ? progressBar.width + padding : 0) + label.width
+    width: label.x + label.width
 
     // Determine the width of the label when showing the progress bar
     TextMetrics {
@@ -68,8 +68,8 @@ Item {
     // The label text asset
     PlasmaExtra.Heading {
         id: label
-        x: progressBar.x + (rootItem.showingProgress ? progressBar.width + padding : 0) + padding
-        width: rootItem.showingProgress ? labelMetricsP.width : Math.max((progressBar.width + padding + labelMetricsP.width), labelMetricsT.width)
+        x: rootItem.showingProgress ? (progressBar.x + progressBar.width + 6 + padding) : (icon.x + icon.width + padding)
+        width: rootItem.showingProgress ? (labelMetricsP.width) : Math.max((progressBar.width + padding + labelMetricsP.width), labelMetricsT.width)
         height: parent.height
         visible: true
         text: rootItem.osdValue ? rootItem.osdValue : ""
