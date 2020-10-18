@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Robert Fry"
+            }
+        ],
+        "Category": "",
+        "Description": "Midnight-RF",
+        "Id": "xyz.robertfry.midnight-rf",
+        "License": "CCPL:by-sa",
+        "Name": "Midnight RF",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/robertefry/midnight-rf"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-MainScript": "defaults"
+}

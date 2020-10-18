@@ -1,4 +1,18 @@
- 
+
+This project is a fork of Rokin05's Midnight-KDE. Please give all thanks to Rokin05 :)
+
+For this theme to work, you MUST also install Rokin05's Midnight-KDE theme.
+
+Changes:
+
+* Stripped to leave just the plasma theme files
+* The default highlight has been changed from Green to Blue
+* The OSD is smaller and apears in the top-left corner of the display.
+
+***
+Rokin05's README can be read below...
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Rokin05/midnight-kde/master/INFO/screenshots/preview.1.png" alt="Preview Midnight KDE"/>
   <a href="https://raw.githubusercontent.com/Rokin05/midnight-kde/master/INFO/screenshots/preview.2.png"><img src="https://raw.githubusercontent.com/Rokin05/midnight-kde/master/INFO/screenshots/thumbs/mini.preview.2.png" alt="Preview Midnight KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/midnight-kde/master/INFO/screenshots/preview.3.png"><img src="https://raw.githubusercontent.com/Rokin05/midnight-kde/master/INFO/screenshots/thumbs/mini.preview.3.png" alt="Preview Midnight KDE"/></a> <a href="https://raw.githubusercontent.com/Rokin05/midnight-kde/master/INFO/screenshots/preview.4.png"><img src="https://raw.githubusercontent.com/Rokin05/midnight-kde/master/INFO/screenshots/thumbs/mini.preview.4.png" alt="Preview Midnight KDE"/></a>
